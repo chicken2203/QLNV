@@ -1,0 +1,89 @@
+.profile-grid {
+    min-height: 1000px;
+    padding: 6% 10%;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px 0px #ccc;
+
+    .MuiSvgIcon-root {
+        margin-top: 3px;
+    }
+
+    .work-experience-box {
+        position: relative;
+
+        &:hover {
+            .work-experience-btn {
+                display: flex;
+            }
+        }
+
+        .work-experience-btn {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 95%;
+            height: 95%;
+            background-color: rgba(255, 255, 255, 0.7);
+        }
+    }
+
+    .MuiInput-underline {
+        &:before {
+            bottom: 5px;
+            border-bottom: 1px dotted rgba(0, 0, 0, 0.42);
+        }
+
+        &:after {
+            content: unset;
+        }
+    }
+}
+
+.resume-grid {
+    padding: 6% 9%;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px 0px #ccc;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    div,
+    p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .MuiTypography-h4,
+    .MuiTypography-h5,
+    .MuiTypography-h6 {
+        font-weight: bold;
+    }
+
+    .MuiTypography-h5 {
+        font-size: 1.3rem;
+    }
+
+    .fix-font {
+        font-size: 16px;
+
+        &.fix-style {
+            font-style: italic;
+        }
+    }
+}
+
+.diploma-grid {
+    height: 730px;
+    align-items: start;
+    padding: 6% 10%;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px 0px #ccc;
+
+    .MuiTypography-h5 {
+        font-weight: bold;
+    }
+}

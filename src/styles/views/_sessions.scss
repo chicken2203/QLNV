@@ -1,0 +1,29 @@
+.signup {
+    background-image: url('/assets/images/login-background.png');
+
+    .signup-card {
+        box-shadow: 0 2px 4px -1px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+        background-color: white;
+        width: 380px;
+        height: 100vh;
+        margin: auto;
+        max-width: 800px;
+        .signup-content {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            .signup-header {
+                font-weight: 700;
+                font-size: 24px;
+                font-family: Inter, Helvetica Neue, sans-serif;
+            }
+            .singup-image {
+                width: 200px;
+            }
+            .signup-form {
+                padding: 20px 20px 70px;
+            }
+        }
+    }
+}

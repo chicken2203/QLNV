@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src"
+  },
+  "paths": {
+    "@axios/*": ["src/app/Utility/Axios"]
+  }
+}

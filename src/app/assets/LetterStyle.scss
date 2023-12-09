@@ -1,0 +1,382 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-family {
+    h6,
+    h5,
+    p {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h6,
+    h5,
+    h4 {
+        // font-size: 18px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-weight {
+    font-weight: 600;
+}
+
+.padding-letter {
+    padding: 40px 70px;
+}
+
+.input-date-dotted {
+    position: relative;
+    padding: 0px;
+    font-size: 16px;
+
+    input {
+        width: 200px;
+        border: none;
+        outline: none;
+        text-align: center;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.input-date-month-dotted {
+    position: relative;
+    padding: 0px;
+    font-size: 16px;
+
+    input {
+        width: 40px;
+        border: none;
+        outline: none;
+        text-align: center;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.input-year-dotted {
+    position: relative;
+    padding: 0px;
+    font-size: 16px;
+
+    input {
+        width: 60px;
+        border: none;
+        outline: none;
+        text-align: center;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.input-name-dotted {
+    position: relative;
+    padding: 0px;
+    font-size: 16px;
+
+    input {
+        width: 200px;
+        border: none;
+        outline: none;
+        text-align: left;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.input-content-dotted {
+    position: relative;
+    padding: 0px;
+    font-size: 16px;
+
+    input {
+        width: 200px;
+        border: none;
+        outline: none;
+        text-align: left;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.note-text {
+    display: inline-block;
+    word-wrap: break-word;
+    padding: 0.5rem 0;
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.input-price-dotted {
+    position: relative;
+    padding: 0px;
+    font-size: 16px;
+
+    input {
+        width: 200px;
+        border: none;
+        outline: none;
+        text-align: left;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.input-fullwidth-dotted {
+    position: relative;
+    padding: 0px;
+    font-size: 16px;
+    flex-grow: 1;
+
+    input {
+        width: 100%;
+        outline: none;
+        text-align: left;
+        border: none;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        border-bottom: 2px dotted gray;
+        right: 0px;
+        bottom: 2px;
+    }
+}
+
+.box-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.background-letter {
+    overflow-y: auto;
+    padding: 6% 7%;
+    background-color: #efefef;
+
+    &.simple {
+        height: 70vh;
+    }
+
+    &.vertical {
+        height: 78vh;
+    }
+}
+
+// Infomation Styles
+
+.letter-a4 {
+    width: 210mm;
+    height: auto;
+    padding: 0;
+    margin: 0px auto;
+    font-family: serif;
+    font-size: 16px;
+    background-color: white;
+}
+.font-inherit {
+    input,
+    textarea {
+        font-family: serif;
+        font-size: 16px;
+    }
+}
+.text-validate-input-dotted {
+    position: relative;
+    padding: 0px;
+    flex: 1;
+    margin-left: 5px;
+    input {
+        border: none;
+        outline: none;
+        width: 100%;
+        font-family: inherit;
+        font-size: inherit;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 8px;
+        left: 0px;
+        border-bottom: 2px dotted darkgray;
+    }
+    .MuiInput-underline {
+        &:before {
+            content: unset;
+        }
+
+        &:after {
+            content: unset;
+        }
+    }
+}
+.input-dotted {
+    position: relative;
+    padding: 0px;
+    flex: 1;
+    margin-left: 5px;
+    input {
+        border: none;
+        outline: none;
+        width: 100%;
+        font-family: inherit;
+        font-size: inherit;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 5px;
+        left: 0px;
+        border-bottom: 2px dotted darkgray;
+    }
+    .MuiInput-underline {
+        &:before {
+            content: unset;
+        }
+
+        &:after {
+            content: unset;
+        }
+    }
+}
+.input-day-dotted {
+    position: relative;
+    padding: 0px;
+    margin-left: 5px;
+    input {
+        width: 50px;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-family: inherit;
+        font-size: inherit;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 5px;
+        left: 0px;
+        border-bottom: 2px dotted darkgray;
+    }
+}
+
+.textarea-dotted {
+    position: relative;
+    padding: 0px;
+    flex: 1;
+    margin-left: 5px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 9 6"><circle cx="2" cy="2" r="2" fill="gray" /></svg>')
+        0 11px/4px 21px;
+    input,
+    textarea {
+        border: none;
+        outline: none;
+        width: 100%;
+        line-height: 21px;
+        font-family: serif;
+        font-size: 16px;
+    }
+    .MuiInput-underline {
+        &:before {
+            content: unset;
+        }
+
+        &:after {
+            content: unset;
+        }
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        top: 0px;
+        left: 0px;
+        border-bottom: 9px solid white;
+    }
+}
+
+.reset-underline-mui {
+    .MuiInput-underline {
+        &:before {
+            content: unset;
+        }
+
+        &:after {
+            content: unset;
+        }
+    }
+}

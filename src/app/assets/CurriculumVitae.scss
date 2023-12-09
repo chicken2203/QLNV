@@ -1,0 +1,86 @@
+.cv-container {
+    color: gray;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    div,
+    p {
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #7467ef !important;
+    }
+
+    .icon {
+        color: #7467ef !important;
+    }
+
+    .MuiTypography-h4,
+    .MuiTypography-h5,
+    .MuiTypography-h6 {
+        font-weight: bold;
+    }
+
+    .middle-line {
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            border-bottom: 2px solid #7467ef;
+            right: 0px;
+            top: 11px;
+            z-index: 1;
+        }
+    }
+    .inline-flex {
+        display: inline-flex;
+    }
+    .bg-primary {
+        background-color: #7467ef;
+    }
+    .bg-white {
+        background-color: white !important;
+        z-index: 2;
+    }
+
+    .pr-4 {
+        padding-right: 4px;
+    }
+    input,
+    textarea {
+        color: gray;
+        font-size: 16px;
+    }
+    .add-icon {
+        position: absolute;
+        top: -35px;
+        right: -20px;
+        z-index: 99;
+        background-color: white;
+        padding: 0;
+    }
+    .MuiIconButton-root {
+        margin: 4px;
+        border: 1px solid #7467ef;
+        border-radius: 5px;
+    }
+    .MuiIconButton-root:hover {
+        background-color: rgba(255, 255, 255, 66%);
+    }
+    .add-icon:hover {
+        background-color: rgb(226, 226, 226);
+    }
+}
